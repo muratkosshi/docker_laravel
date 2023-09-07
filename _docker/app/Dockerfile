@@ -24,6 +24,3 @@ RUN curl -sS https://getcomposer.org/installer | php -- \
 
 
 WORKDIR /var/www
-RUN apt-get update && apt-get install -y
-ADD . /var/www
-RUN chown -R www-data:www-data /var/www

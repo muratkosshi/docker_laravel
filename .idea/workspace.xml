@@ -217,7 +217,7 @@
       <workItem from="1693289713890" duration="3467000" />
       <workItem from="1693458716168" duration="1940000" />
       <workItem from="1694079662586" duration="1617000" />
-      <workItem from="1694081803771" duration="5080000" />
+      <workItem from="1694081803771" duration="5126000" />
     </task>
     <task id="LOCAL-00004" summary="fix dockerfile add gitinore for db">
       <created>1694082125594</created>
@@ -233,7 +233,14 @@
       <option name="project" value="LOCAL" />
       <updated>1694082135567</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="fix dockerfile add gitinore for db">
+      <created>1694086892754</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1694086892754</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
