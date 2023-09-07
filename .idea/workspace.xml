@@ -4,7 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0e660add-2cfc-4f3e-96d5-1ba598e68af0" name="Changes" comment="">
+    <list default="true" id="0e660add-2cfc-4f3e-96d5-1ba598e68af0" name="Changes" comment="fix dockerfile add gitinore for db">
       <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
@@ -207,7 +207,7 @@
       <updated>1693289711939</updated>
       <workItem from="1693289713890" duration="3467000" />
       <workItem from="1693458716168" duration="1940000" />
-      <workItem from="1694079662586" duration="1773000" />
+      <workItem from="1694079662586" duration="1878000" />
     </task>
     <task id="LOCAL-00004" summary="fix dockerfile add gitinore for db">
       <created>1694081340605</created>
@@ -216,11 +216,29 @@
       <option name="project" value="LOCAL" />
       <updated>1694081340605</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="fix dockerfile add gitinore for db">
+      <created>1694081492631</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1694081492631</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first_commit" />
