@@ -12,9 +12,7 @@ RUN apt-get update && apt-get install -y \
       docker-php-ext-install gd && \
       docker-php-ext-install zip && \
       apt-get clean && \
-      rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/* && \
-      groupadd docker && \
-      usermod -aG docker root, www-data &&\
+      rm -rf /var/lib/apt/lists/* /tmp/* /var/tmp/*
 
 COPY ./_docker/app/php.ini /usr/local/etc/php/conf.d/php.ini
 
@@ -24,4 +22,8 @@ RUN curl -sS https://getcomposer.org/installer | php -- \
     --filename=composer \
     --install-dir=/usr/local/bin
 
+
 WORKDIR /var/www
+RUN apt-get update && apt-get install -y
+ADD . /var/www
+RUN chown -R www-data:www-data /var/www
