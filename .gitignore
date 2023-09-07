@@ -15,7 +15,7 @@ public/hot
 public_html/storage
 public_html/hot
 
-tmp/db/
+
 storage/*.key
 Homestead.yaml
 Homestead.json
